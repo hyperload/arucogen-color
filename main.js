@@ -10,7 +10,7 @@ function generateMarkerSvg(width, height, bits, fixPdfArtifacts = true) {
 	rect.setAttribute('y', 0);
 	rect.setAttribute('width', width + 2);
 	rect.setAttribute('height', height + 2);
-	rect.setAttribute('fill', 'black');
+	rect.setAttribute('fill', '#B69E85');
 	svg.appendChild(rect);
 
 	// "Pixels"
